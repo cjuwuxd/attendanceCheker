@@ -9,8 +9,8 @@ st.set_page_config(page_title="CyberCore Attendance", layout="wide", page_icon="
 def Camera():
     global name
     global section
-    cam_mode = st.checkbox("Enable Camera")
-    picture = st.camera_input("Attendance Check!!!" , disabled=not cam_mode)
+    
+    picture = st.camera_input("Attendance Check!!!")
     
     if picture is not None:
         byte = picture.getvalue()
