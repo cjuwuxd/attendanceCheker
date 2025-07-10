@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import requests
 
-st.set_page_config(page_title="CyberCore Attendance", layout=layout, page_icon="🤖")
+st.set_page_config(page_title="CyberCore Attendance", layout="wide", page_icon="🤖")
 
 def Camera():
     global name
