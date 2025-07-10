@@ -1,5 +1,2 @@
 streamlit
-opencv-python
-numpy
-pandas
-opencv-contrib-python 
+cv2
